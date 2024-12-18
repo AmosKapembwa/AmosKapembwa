@@ -1,0 +1,78 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Heading */
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f7d600; /* Match the yellow color in the image */
+}
+
+/* Form Wrapper */
+.form-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+}
+
+/* Textarea */
+textarea {
+    resize: none;
+}
+
+/* Submit Button */
+.btn-submit {
+    display: inline-block;
+    width: 100%;
+    background-color: #f7d600;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #ffb400;
+}
